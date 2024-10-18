@@ -1,6 +1,6 @@
-package DTO;
+package com.example.Cardapio.DTO;
 
-import Model.Food;
+import com.example.Cardapio.Model.Food;
 
 public record FoodResponseDTO(long id, String title, String image, Integer price) {
 public FoodResponseDTO(Food food){

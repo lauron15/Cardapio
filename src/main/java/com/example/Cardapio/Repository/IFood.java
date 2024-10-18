@@ -1,6 +1,6 @@
-package Repository;
+package com.example.Cardapio.Repository;
 
-import Model.Food;
+import com.example.Cardapio.Model.Food;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface IFood extends JpaRepository<Food, Long> {

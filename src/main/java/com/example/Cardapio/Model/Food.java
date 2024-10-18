@@ -1,6 +1,6 @@
-package Model;
+package com.example.Cardapio.Model;
 
-import DTO.FoodRequestDTO;
+import com.example.Cardapio.DTO.FoodRequestDTO;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -8,7 +8,7 @@ import lombok.*;
 
 @Table(name = "foods")
 @Entity(name = "foods")
-@Getter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
